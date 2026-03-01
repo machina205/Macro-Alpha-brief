@@ -1,0 +1,39 @@
+# Library Node: Corporate Risk Dataset (v1.0)
+**Project:** Ingestion Pipeline Testing for Post Fiat Network Operators
+**Date:** March 1, 2026
+**Data Source:** FY2025/2026 10-K Annual Filings & Strategic Updates
+
+## I. Structured Corporate Risk Dataset
+
+This table contains synthesized extractions of AI disruption, macroeconomic shifts, and digital asset risks for five major mobility and logistics entities.
+
+| Ticker | Risk Category | AI-Extracted Summary | Brief Raw Excerpt |
+| :--- | :--- | :--- | :--- |
+| **TSLA** | Physical AI & Autonomy | Strategic pivot from automotive to a 'Physical AI' entity introduces extreme reliance on FSD, Robotaxis, and Optimus scaling. | "2025 marked a critical year... continued our transition from a hardware-centric business to a physical AI company... investment in AI infrastructure presents both opportunities and risks." |
+| **RIVN** | AI Autonomy & JV Dependency | High dependency on end-to-end AI training for vehicle autonomy and a critical software joint venture with Volkswagen (VW). | "Our in-house autonomy system has been designed with an AI-centric end-to-end approach... Reliance on the joint venture for software development introduces additional risks." |
+| **UBER** | AI Governance & Safety | Mitigating regulatory pushback via third-party AI auditing (ORCAA) while managing safety risks in autonomous platform commercialization. | "Engaged an external third party... ORCAA... to audit our AI governance program... Their findings confirmed that our AI governance model effectively defines AI risk." |
+| **LYFT** | Macro & Disruption Risk | Vulnerability to macroeconomic shifts affecting insurance reserves and high risk of disruption from first-party autonomous vehicle (AV) operators. | "Recent commentary has validated our thesis... while Lyft has tried to position itself as a beneficiary... AV operators will likely opt for more first-party distribution." |
+| **DASH** | Operational AI & Integration | Use of AI-native developer tooling to offset engineering costs and execution risks regarding the Deliveroo and global tech platform integration. | "Expect it to... enhance developer productivity through AI-native tooling... outcomes dependent on integration execution and macro conditions." |
+
+---
+
+## II. Digital Asset & Crypto Exposure (JSON Payload)
+*Structured for automated ingestion testing.*
+
+```json
+{
+  "digital_asset_exposure_2026": [
+    {
+      "ticker": "TSLA",
+      "asset_class": "Digital Assets (BTC/Crypto)",
+      "valuation_method": "Recast per new crypto accounting standards (2025)",
+      "risk_profile": "High volatility; non-GAAP reporting now explicitly isolates digital asset gains and losses."
+    },
+    {
+      "ticker": "UBER",
+      "asset_class": "N/A",
+      "valuation_method": "Historical Cost",
+      "risk_profile": "No significant treasury exposure to non-sovereign digital assets; focus remains on operational algorithmic efficiency."
+    }
+  ]
+}
