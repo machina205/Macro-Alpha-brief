@@ -1,0 +1,21 @@
+TSLA (Tesla)
+Accuracy Score: 4/10
+Error Type: Omission
+AI Claim: "Strategic pivot to a 'Physical AI' entity introduces extreme reliance on FSD... This shift increases the risk profile regarding specialized AI silicon availability."
+Actual Filing Text: "Our transition towards autonomous services is heavily dependent on regulatory approvals in distinct jurisdictions... Furthermore, our capital expenditures expose us to concentration risk with a limited number of silicon suppliers."
+Human Correction: The AI omitted the primary gating factor (distinct jurisdictional regulatory approvals) and failed to explicitly define the silicon issue as a supplier concentration risk, which is the actual financial threat.
+
+RIVN (Rivian)
+Accuracy Score: 3/10
+Error Type: Omission
+AI Claim: "High dependency on end-to-end AI training for vehicle autonomy and a critical software joint venture with Volkswagen (VW)."
+Actual Filing Text: "If we fail to meet the specific technical milestones outlined in the JV agreement, up to $2.0 billion of the anticipated $5.8 billion funding may be withheld, which would severely restrict our ability to fund the R2 production ramp."
+Human Correction: The AI captured the existence of the JV but completely missed the conditional nature of the capital. A $2B milestone covenant is a material liquidity risk that must be explicitly extracted.
+
+DASH (DoorDash)
+Accuracy Score: 2/10
+Error Type: Hallucination
+AI Claim: "Deployment of AI-native developer tooling to offset global engineering costs and macro risks in the Deliveroo integration."
+Actual Filing Text: "Our core platform efficiency relies on algorithmic matching; however, integration of third-party generative AI for dispatch routing exposes us to data privacy liabilities under the EU AI Act. We do not currently rely on AI to offset core engineering headcount."
+
+Human Correction: The AI completely fabricated a narrative about offsetting engineering costs. The actual risk is third-party model dependency and European regulatory exposure (EU AI Act).
